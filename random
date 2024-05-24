@@ -1,0 +1,25 @@
+#include <iostream>
+#include<cstdlib>
+//#include<ctime>
+using namespace std;
+
+int main()
+{ int a,n;
+    a=rand();
+
+    while(true){
+            cout<<"Guess the number ";
+    cin>>n;
+    if (n<a)
+        cout<<"Your guess is too LOW"<<endl;
+
+    else if(n>a)
+      cout<<"Your guess is too HIGH"<<endl;
+    else
+       {
+
+        cout<<"Your guess was RIGHT";
+    break;
+    }}
+    return 0;
+}
